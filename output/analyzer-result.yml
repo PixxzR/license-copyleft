@@ -1,0 +1,1416 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2024-10-28T09:57:18.977758898Z"
+  end_time: "2024-10-28T09:57:24.873585781Z"
+  environment:
+    ort_version: "33.1.0"
+    build_jdk: "11.0.24+8"
+    java_version: "21.0.4"
+    os: "Linux"
+    processors: 16
+    max_memory: 3881828352
+    variables:
+      HOME: "/home/iyme3300"
+      SHELL: "/usr/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/home/iyme3300/.sdkman/candidates/java/current"
+    tool_versions:
+      NPM: "10.8.3"
+  config:
+    allow_dynamic_versions: true
+    skip_excluded: true
+  result:
+    projects:
+    - id: "NPM::copyleft_project:1.0.0"
+      definition_file_path: ""
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    packages:
+    - id: "NPM::ansi-regex:3.0.1"
+      purl: "pkg:npm/ansi-regex@3.0.1"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Regular expression for matching ANSI escape codes"
+      homepage_url: "https://github.com/chalk/ansi-regex#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.1.tgz"
+        hash:
+          value: "123d6479e92ad45ad897d4054e3c7ca7db4944e1"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-regex.git"
+        revision: "f545bdb80048f527889eddb9ac1a851c6f2a2241"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-regex.git"
+        revision: "f545bdb80048f527889eddb9ac1a851c6f2a2241"
+        path: ""
+    - id: "NPM::ansi-regex:5.0.1"
+      purl: "pkg:npm/ansi-regex@5.0.1"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Regular expression for matching ANSI escape codes"
+      homepage_url: "https://github.com/chalk/ansi-regex#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+        hash:
+          value: "082cb2c89c9fe8659a311a53bd6a4dc5301db304"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-regex.git"
+        revision: "a9babce885cf19c363cf1d1c645f834592c3f7a4"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-regex.git"
+        revision: "a9babce885cf19c363cf1d1c645f834592c3f7a4"
+        path: ""
+    - id: "NPM::ansi-styles:4.3.0"
+      purl: "pkg:npm/ansi-styles@4.3.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "ANSI escape codes for styling strings in the terminal"
+      homepage_url: "https://github.com/chalk/ansi-styles#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz"
+        hash:
+          value: "edd803628ae71c04c85ae7a0906edad34b648937"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-styles.git"
+        revision: "2d02d5bd070f733179007f0904eb5fb41090395a"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/ansi-styles.git"
+        revision: "2d02d5bd070f733179007f0904eb5fb41090395a"
+        path: ""
+    - id: "NPM::asn1.js:5.4.1"
+      purl: "pkg:npm/asn1.js@5.4.1"
+      authors:
+      - "Fedor Indutny"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "ASN.1 encoder and decoder"
+      homepage_url: "https://github.com/indutny/asn1.js"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz"
+        hash:
+          value: "11a980b84ebb91781ce35b0fdc2ee294e3783f07"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:indutny/asn1.js"
+        revision: "a26f54f42df8d084b81748a6c5a97023e83b0e90"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/indutny/asn1.js.git"
+        revision: "a26f54f42df8d084b81748a6c5a97023e83b0e90"
+        path: ""
+    - id: "NPM::bn.js:4.12.0"
+      purl: "pkg:npm/bn.js@4.12.0"
+      authors:
+      - "Fedor Indutny"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Big number implementation in pure javascript"
+      homepage_url: "https://github.com/indutny/bn.js"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
+        hash:
+          value: "775b3f278efbb9718eec7361f483fb36fbbfea88"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:indutny/bn.js"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/indutny/bn.js.git"
+        revision: ""
+        path: ""
+    - id: "NPM::camelcase:5.3.1"
+      purl: "pkg:npm/camelcase@5.3.1"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Convert a dash/dot/underscore/space separated string to camelCase\
+        \ or PascalCase: `foo-bar` → `fooBar`"
+      homepage_url: "https://github.com/sindresorhus/camelcase#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz"
+        hash:
+          value: "e3c9b31569e106811df242f715725a1f4c494320"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/camelcase.git"
+        revision: "cbe5a519ec6745adbb5283d5ee8c5c9889050d74"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/camelcase.git"
+        revision: "cbe5a519ec6745adbb5283d5ee8c5c9889050d74"
+        path: ""
+    - id: "NPM::cliui:6.0.0"
+      purl: "pkg:npm/cliui@6.0.0"
+      authors:
+      - "Ben Coe"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "easily create complex multi-column command-line-interfaces"
+      homepage_url: "https://github.com/yargs/cliui#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/cliui/-/cliui-6.0.0.tgz"
+        hash:
+          value: "511d702c0c4e41ca156d7d0e96021f23e13225b1"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "http://github.com/yargs/cliui.git"
+        revision: "7761da3e8cddd1f49024252a6b0195a94565b357"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/yargs/cliui.git"
+        revision: "7761da3e8cddd1f49024252a6b0195a94565b357"
+        path: ""
+    - id: "NPM::color-convert:2.0.1"
+      purl: "pkg:npm/color-convert@2.0.1"
+      authors:
+      - "Heather Arthur"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Plain color conversion functions"
+      homepage_url: "https://github.com/Qix-/color-convert#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
+        hash:
+          value: "72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/Qix-/color-convert.git"
+        revision: "e1cb7846258e1d7aa25873814684d4fbbbca53ed"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/Qix-/color-convert.git"
+        revision: "e1cb7846258e1d7aa25873814684d4fbbbca53ed"
+        path: ""
+    - id: "NPM::color-name:1.1.4"
+      purl: "pkg:npm/color-name@1.1.4"
+      authors:
+      - "DY"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "A list of color names and its values"
+      homepage_url: "https://github.com/colorjs/color-name"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz"
+        hash:
+          value: "c2a09a87acbde69543de6f63fa3995c826c536a2"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:colorjs/color-name.git"
+        revision: "4536ce5944f56659a2dfb2198eaf81b5ad5f2ad9"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/colorjs/color-name.git"
+        revision: "4536ce5944f56659a2dfb2198eaf81b5ad5f2ad9"
+        path: ""
+    - id: "NPM::cowsay:1.6.0"
+      purl: "pkg:npm/cowsay@1.6.0"
+      authors:
+      - "Fabio Crisci"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "cowsay is a configurable talking cow"
+      homepage_url: "https://github.com/piuccio/cowsay"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/cowsay/-/cowsay-1.6.0.tgz"
+        hash:
+          value: "dea1a2504a3422bcbaa5e85d564170a84791b672"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/piuccio/cowsay.git"
+        revision: "eef317a302d025e3f31787566727c49eaee43648"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/piuccio/cowsay.git"
+        revision: "eef317a302d025e3f31787566727c49eaee43648"
+        path: ""
+    - id: "NPM::decamelize:1.2.0"
+      purl: "pkg:npm/decamelize@1.2.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Convert a camelized string into a lowercased one with a custom\
+        \ separator: unicornRainbow → unicorn_rainbow"
+      homepage_url: "https://github.com/sindresorhus/decamelize#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz"
+        hash:
+          value: "f6534d15148269b20352e7bee26f501f9a191290"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/decamelize.git"
+        revision: "95980ab6fb44c40eaca7792bdf93aff7c210c805"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/decamelize.git"
+        revision: "95980ab6fb44c40eaca7792bdf93aff7c210c805"
+        path: ""
+    - id: "NPM::emoji-regex:8.0.0"
+      purl: "pkg:npm/emoji-regex@8.0.0"
+      authors:
+      - "Mathias Bynens"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "A regular expression to match all Emoji-only symbols as per the\
+        \ Unicode Standard."
+      homepage_url: "https://mths.be/emoji-regex"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"
+        hash:
+          value: "e818fd69ce5ccfcb404594f842963bf53164cc37"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/mathiasbynens/emoji-regex.git"
+        revision: "a9f2e514523d4c0931974aff5059052da10c52c5"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/mathiasbynens/emoji-regex.git"
+        revision: "a9f2e514523d4c0931974aff5059052da10c52c5"
+        path: ""
+    - id: "NPM::find-up:4.1.0"
+      purl: "pkg:npm/find-up@4.1.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Find a file or directory by walking up parent directories"
+      homepage_url: "https://github.com/sindresorhus/find-up#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/find-up/-/find-up-4.1.0.tgz"
+        hash:
+          value: "97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/find-up.git"
+        revision: "6c32f0caed1684ef778053b6f79b13a772e22ba4"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/find-up.git"
+        revision: "6c32f0caed1684ef778053b6f79b13a772e22ba4"
+        path: ""
+    - id: "NPM::get-caller-file:2.0.5"
+      purl: "pkg:npm/get-caller-file@2.0.5"
+      authors:
+      - "Stefan Penner"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "[![Build Status](https://travis-ci.org/stefanpenner/get-caller-file.svg?branch=master)](https://travis-ci.org/stefanpenner/get-caller-file)\
+        \ [![Build status](https://ci.appveyor.com/api/projects/status/ol2q94g1932cy14a/branch/master?svg=true)](https://ci.a"
+      homepage_url: "https://github.com/stefanpenner/get-caller-file#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz"
+        hash:
+          value: "4f94412a82db32f36e3b0b9741f8a97feb031f7e"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/stefanpenner/get-caller-file.git"
+        revision: "2383bf9e98ed3c568ff69d7586cf59c0f1dcb9d3"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/stefanpenner/get-caller-file.git"
+        revision: "2383bf9e98ed3c568ff69d7586cf59c0f1dcb9d3"
+        path: ""
+    - id: "NPM::get-stdin:8.0.0"
+      purl: "pkg:npm/get-stdin@8.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Get stdin as a string or buffer"
+      homepage_url: "https://github.com/sindresorhus/get-stdin#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/get-stdin/-/get-stdin-8.0.0.tgz"
+        hash:
+          value: "cbad6a73feb75f6eeb22ba9e01f89aa28aa97a53"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/get-stdin.git"
+        revision: "07288e101242054df3c197abc5559458af6c78ba"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/get-stdin.git"
+        revision: "07288e101242054df3c197abc5559458af6c78ba"
+        path: ""
+    - id: "NPM::inherits:2.0.4"
+      purl: "pkg:npm/inherits@2.0.4"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "Browser-friendly inheritance fully compatible with standard node.js\
+        \ inherits()"
+      homepage_url: "https://github.com/isaacs/inherits#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
+        hash:
+          value: "0fa2c64f932917c3433a0ded55363aae37416b7c"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/isaacs/inherits"
+        revision: "9a2c29400c6d491e0b7beefe0c32efa3b462545d"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/isaacs/inherits.git"
+        revision: "9a2c29400c6d491e0b7beefe0c32efa3b462545d"
+        path: ""
+    - id: "NPM::is-fullwidth-code-point:2.0.0"
+      purl: "pkg:npm/is-fullwidth-code-point@2.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Check if the character represented by a given Unicode code point\
+        \ is fullwidth"
+      homepage_url: "https://github.com/sindresorhus/is-fullwidth-code-point#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz"
+        hash:
+          value: "a3b30a5c4f199183167aaab93beefae3ddfb654f"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/is-fullwidth-code-point.git"
+        revision: "e94a78056056c5546f2bf4c4cf812a2163a46dae"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/is-fullwidth-code-point.git"
+        revision: "e94a78056056c5546f2bf4c4cf812a2163a46dae"
+        path: ""
+    - id: "NPM::is-fullwidth-code-point:3.0.0"
+      purl: "pkg:npm/is-fullwidth-code-point@3.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Check if the character represented by a given Unicode code point\
+        \ is fullwidth"
+      homepage_url: "https://github.com/sindresorhus/is-fullwidth-code-point#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz"
+        hash:
+          value: "f116f8064fe90b3f7844a38997c0b75051269f1d"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/is-fullwidth-code-point.git"
+        revision: "80e5e314d86e5f76bd1b0573aa9d33e615a372db"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/is-fullwidth-code-point.git"
+        revision: "80e5e314d86e5f76bd1b0573aa9d33e615a372db"
+        path: ""
+    - id: "NPM::locate-path:5.0.0"
+      purl: "pkg:npm/locate-path@5.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Get the first path that exists on disk of multiple paths"
+      homepage_url: "https://github.com/sindresorhus/locate-path#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/locate-path/-/locate-path-5.0.0.tgz"
+        hash:
+          value: "1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/locate-path.git"
+        revision: "630c0bbd609055c1895089c715649e21000a1ab7"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/locate-path.git"
+        revision: "630c0bbd609055c1895089c715649e21000a1ab7"
+        path: ""
+    - id: "NPM::minimalistic-assert:1.0.1"
+      purl: "pkg:npm/minimalistic-assert@1.0.1"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "minimalistic-assert ==="
+      homepage_url: "https://github.com/calvinmetcalf/minimalistic-assert"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz"
+        hash:
+          value: "2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/calvinmetcalf/minimalistic-assert.git"
+        revision: "33113391ad64bea7a3398074a71d0569d4ae038d"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/calvinmetcalf/minimalistic-assert.git"
+        revision: "33113391ad64bea7a3398074a71d0569d4ae038d"
+        path: ""
+    - id: "NPM::openpgp:5.11.2"
+      purl: "pkg:npm/openpgp@5.11.2"
+      declared_licenses:
+      - "LGPL-3.0+"
+      declared_licenses_processed:
+        spdx_expression: "LGPL-3.0-or-later"
+        mapped:
+          LGPL-3.0+: "LGPL-3.0-or-later"
+      description: "OpenPGP.js is a Javascript implementation of the OpenPGP protocol.\
+        \ This is defined in RFC 4880."
+      homepage_url: "https://openpgpjs.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/openpgp/-/openpgp-5.11.2.tgz"
+        hash:
+          value: "2c035a26b13feb3b0bb5180718ec91c8e65cc686"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/openpgpjs/openpgpjs"
+        revision: "a0337780b77093716ba92acb4a70b3bb5ceec87d"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/openpgpjs/openpgpjs.git"
+        revision: "a0337780b77093716ba92acb4a70b3bb5ceec87d"
+        path: ""
+    - id: "NPM::p-limit:2.3.0"
+      purl: "pkg:npm/p-limit@2.3.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Run multiple promise-returning & async functions with limited\
+        \ concurrency"
+      homepage_url: "https://github.com/sindresorhus/p-limit#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/p-limit/-/p-limit-2.3.0.tgz"
+        hash:
+          value: "3dd33c647a214fdfffd835933eb086da0dc21db1"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-limit.git"
+        revision: "a11f02bc5c04490b7c3de2663d866c211fb915ea"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-limit.git"
+        revision: "a11f02bc5c04490b7c3de2663d866c211fb915ea"
+        path: ""
+    - id: "NPM::p-locate:4.1.0"
+      purl: "pkg:npm/p-locate@4.1.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Get the first fulfilled promise that satisfies the provided testing\
+        \ function"
+      homepage_url: "https://github.com/sindresorhus/p-locate#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/p-locate/-/p-locate-4.1.0.tgz"
+        hash:
+          value: "a3428bb7088b3a60292f66919278b7c297ad4f07"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-locate.git"
+        revision: "a650b26e49713a8cca58f669a7f8aef9b655554c"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-locate.git"
+        revision: "a650b26e49713a8cca58f669a7f8aef9b655554c"
+        path: ""
+    - id: "NPM::p-try:2.2.0"
+      purl: "pkg:npm/p-try@2.2.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "`Start a promise chain"
+      homepage_url: "https://github.com/sindresorhus/p-try#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
+        hash:
+          value: "cb2868540e313d61de58fafbe35ce9004d5540e6"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-try.git"
+        revision: "e80e2e130b2d16807345be02aa03541e6e085952"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/p-try.git"
+        revision: "e80e2e130b2d16807345be02aa03541e6e085952"
+        path: ""
+    - id: "NPM::path-exists:4.0.0"
+      purl: "pkg:npm/path-exists@4.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Check if a path exists"
+      homepage_url: "https://github.com/sindresorhus/path-exists#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/path-exists/-/path-exists-4.0.0.tgz"
+        hash:
+          value: "513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/path-exists.git"
+        revision: "26b1adf80aa6761a7db35927a20cf59e0fd1a00d"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/path-exists.git"
+        revision: "26b1adf80aa6761a7db35927a20cf59e0fd1a00d"
+        path: ""
+    - id: "NPM::require-directory:2.1.1"
+      purl: "pkg:npm/require-directory@2.1.1"
+      authors:
+      - "Troy Goode"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Recursively iterates over specified directory, require()'ing each\
+        \ file, and returning a nested hash structure containing those modules."
+      homepage_url: "https://github.com/troygoode/node-require-directory/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
+        hash:
+          value: "8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git://github.com/troygoode/node-require-directory.git"
+        revision: "cc71c23dd0c16cefd26855303c16ca1b9b50a36d"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/troygoode/node-require-directory.git"
+        revision: "cc71c23dd0c16cefd26855303c16ca1b9b50a36d"
+        path: ""
+    - id: "NPM::require-main-filename:2.0.0"
+      purl: "pkg:npm/require-main-filename@2.0.0"
+      authors:
+      - "Ben Coe"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "shim for require.main.filename() that works in as many environments\
+        \ as possible"
+      homepage_url: "https://github.com/yargs/require-main-filename#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/require-main-filename/-/require-main-filename-2.0.0.tgz"
+        hash:
+          value: "d0b329ecc7cc0f61649f62215be69af54aa8989b"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+ssh://git@github.com/yargs/require-main-filename.git"
+        revision: "1acaf42e8ababa22c191319b319f25df833ffd79"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/yargs/require-main-filename.git"
+        revision: "1acaf42e8ababa22c191319b319f25df833ffd79"
+        path: ""
+    - id: "NPM::safer-buffer:2.1.2"
+      purl: "pkg:npm/safer-buffer@2.1.2"
+      authors:
+      - "Nikita Skovoroda"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Modern Buffer API polyfill without footguns"
+      homepage_url: "https://github.com/ChALkeR/safer-buffer#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
+        hash:
+          value: "44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/ChALkeR/safer-buffer.git"
+        revision: "e8ac214944eda30e1e6c6b7d7e7f6a21cf7dce7c"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/ChALkeR/safer-buffer.git"
+        revision: "e8ac214944eda30e1e6c6b7d7e7f6a21cf7dce7c"
+        path: ""
+    - id: "NPM::set-blocking:2.0.0"
+      purl: "pkg:npm/set-blocking@2.0.0"
+      authors:
+      - "Ben Coe"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "set blocking stdio and stderr ensuring that terminal output does\
+        \ not truncate"
+      homepage_url: "https://github.com/yargs/set-blocking#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/set-blocking/-/set-blocking-2.0.0.tgz"
+        hash:
+          value: "045f9782d011ae9a6803ddd382b24392b3d890f7"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/yargs/set-blocking.git"
+        revision: "7eec10577b5fff264de477ba3b9d07f404946eff"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/yargs/set-blocking.git"
+        revision: "7eec10577b5fff264de477ba3b9d07f404946eff"
+        path: ""
+    - id: "NPM::string-width:2.1.1"
+      purl: "pkg:npm/string-width@2.1.1"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Get the visual width of a string - the number of columns required\
+        \ to display it"
+      homepage_url: "https://github.com/sindresorhus/string-width#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz"
+        hash:
+          value: "ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/string-width.git"
+        revision: "74d8d552b465692790c41169b123409669d41079"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/string-width.git"
+        revision: "74d8d552b465692790c41169b123409669d41079"
+        path: ""
+    - id: "NPM::string-width:4.2.3"
+      purl: "pkg:npm/string-width@4.2.3"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Get the visual width of a string - the number of columns required\
+        \ to display it"
+      homepage_url: "https://github.com/sindresorhus/string-width#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz"
+        hash:
+          value: "269c7117d27b05ad2e536830a8ec895ef9c6d010"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/string-width.git"
+        revision: "e7a2755c834246c59a4cc5de9471bef2d531a6b1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/string-width.git"
+        revision: "e7a2755c834246c59a4cc5de9471bef2d531a6b1"
+        path: ""
+    - id: "NPM::strip-ansi:4.0.0"
+      purl: "pkg:npm/strip-ansi@4.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Strip ANSI escape codes"
+      homepage_url: "https://github.com/chalk/strip-ansi#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz"
+        hash:
+          value: "a8479022eb1ac368a871389b635262c505ee368f"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/strip-ansi.git"
+        revision: "c299056a42b31d7a479d6a89b41318b2a2462cc7"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/strip-ansi.git"
+        revision: "c299056a42b31d7a479d6a89b41318b2a2462cc7"
+        path: ""
+    - id: "NPM::strip-ansi:6.0.1"
+      purl: "pkg:npm/strip-ansi@6.0.1"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Strip ANSI escape codes from a string"
+      homepage_url: "https://github.com/chalk/strip-ansi#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz"
+        hash:
+          value: "9e26c63d30f53443e9489495b2105d37b67a85d9"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/strip-ansi.git"
+        revision: "59533da99981f9d550de1ae0eb9d1a93c2383be3"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/strip-ansi.git"
+        revision: "59533da99981f9d550de1ae0eb9d1a93c2383be3"
+        path: ""
+    - id: "NPM::strip-final-newline:2.0.0"
+      purl: "pkg:npm/strip-final-newline@2.0.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Strip the final newline character from a string/buffer"
+      homepage_url: "https://github.com/sindresorhus/strip-final-newline#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
+        hash:
+          value: "89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/strip-final-newline.git"
+        revision: "51c93d6c8683d9fd1cacdb32f2afebac9a1155a1"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/strip-final-newline.git"
+        revision: "51c93d6c8683d9fd1cacdb32f2afebac9a1155a1"
+        path: ""
+    - id: "NPM::which-module:2.0.1"
+      purl: "pkg:npm/which-module@2.0.1"
+      authors:
+      - "nexdrew"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "Find the module object for something that was require()d"
+      homepage_url: "https://github.com/nexdrew/which-module#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz"
+        hash:
+          value: "776b1fe35d90aebe99e8ac15eb24093389a4a409"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/nexdrew/which-module.git"
+        revision: "9dcb8cc3d4c46e97209894a6c36ee7a352d6f97e"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/nexdrew/which-module.git"
+        revision: "9dcb8cc3d4c46e97209894a6c36ee7a352d6f97e"
+        path: ""
+    - id: "NPM::wrap-ansi:6.2.0"
+      purl: "pkg:npm/wrap-ansi@6.2.0"
+      authors:
+      - "Sindre Sorhus"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Wordwrap a string with ANSI escape codes"
+      homepage_url: "https://github.com/chalk/wrap-ansi#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-6.2.0.tgz"
+        hash:
+          value: "e9393ba07102e6c91a3b221478f0257cd2856e53"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/chalk/wrap-ansi.git"
+        revision: "a28eb7d6cdbf91bccb56d04d095ca9463c15d3db"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/chalk/wrap-ansi.git"
+        revision: "a28eb7d6cdbf91bccb56d04d095ca9463c15d3db"
+        path: ""
+    - id: "NPM::y18n:4.0.3"
+      purl: "pkg:npm/y18n@4.0.3"
+      authors:
+      - "Ben Coe"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "the bare-bones internationalization library used by yargs"
+      homepage_url: "https://github.com/yargs/y18n"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/y18n/-/y18n-4.0.3.tgz"
+        hash:
+          value: "b5f259c82cd6e336921efd7bfd8bf560de9eeedf"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git@github.com:yargs/y18n.git"
+        revision: "0aa97c508ea31efadd2a27f98fed6873eefc963e"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "ssh://git@github.com/yargs/y18n.git"
+        revision: "0aa97c508ea31efadd2a27f98fed6873eefc963e"
+        path: ""
+    - id: "NPM::yargs:15.4.1"
+      purl: "pkg:npm/yargs@15.4.1"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "yargs the modern, pirate-themed, successor to optimist."
+      homepage_url: "https://yargs.js.org/"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/yargs/-/yargs-15.4.1.tgz"
+        hash:
+          value: "0d87a16de01aee9d8bec2bfbf74f67851730f4f8"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/yargs/yargs.git"
+        revision: "0b519a4672c8493d72838292ed0d60b63b88f33e"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/yargs/yargs.git"
+        revision: "0b519a4672c8493d72838292ed0d60b63b88f33e"
+        path: ""
+    - id: "NPM::yargs-parser:18.1.3"
+      purl: "pkg:npm/yargs-parser@18.1.3"
+      authors:
+      - "Ben Coe"
+      declared_licenses:
+      - "ISC"
+      declared_licenses_processed:
+        spdx_expression: "ISC"
+      description: "the mighty option parser used by yargs"
+      homepage_url: "https://github.com/yargs/yargs-parser#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/yargs-parser/-/yargs-parser-18.1.3.tgz"
+        hash:
+          value: "be68c4975c6b2abf469236b0c870362fab09a7b0"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/yargs/yargs-parser.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/yargs/yargs-parser.git"
+        revision: ""
+        path: ""
+    dependency_graphs:
+      NPM:
+        packages:
+        - "NPM::ansi-regex:3.0.1"
+        - "NPM::ansi-regex:5.0.1"
+        - "NPM::ansi-styles:4.3.0"
+        - "NPM::asn1.js:5.4.1"
+        - "NPM::bn.js:4.12.0"
+        - "NPM::camelcase:5.3.1"
+        - "NPM::cliui:6.0.0"
+        - "NPM::color-convert:2.0.1"
+        - "NPM::color-name:1.1.4"
+        - "NPM::cowsay:1.6.0"
+        - "NPM::decamelize:1.2.0"
+        - "NPM::emoji-regex:8.0.0"
+        - "NPM::find-up:4.1.0"
+        - "NPM::get-caller-file:2.0.5"
+        - "NPM::get-stdin:8.0.0"
+        - "NPM::inherits:2.0.4"
+        - "NPM::is-fullwidth-code-point:2.0.0"
+        - "NPM::is-fullwidth-code-point:3.0.0"
+        - "NPM::locate-path:5.0.0"
+        - "NPM::minimalistic-assert:1.0.1"
+        - "NPM::openpgp:5.11.2"
+        - "NPM::p-limit:2.3.0"
+        - "NPM::p-locate:4.1.0"
+        - "NPM::p-try:2.2.0"
+        - "NPM::path-exists:4.0.0"
+        - "NPM::require-directory:2.1.1"
+        - "NPM::require-main-filename:2.0.0"
+        - "NPM::safer-buffer:2.1.2"
+        - "NPM::set-blocking:2.0.0"
+        - "NPM::string-width:2.1.1"
+        - "NPM::string-width:4.2.3"
+        - "NPM::strip-ansi:4.0.0"
+        - "NPM::strip-ansi:6.0.1"
+        - "NPM::strip-final-newline:2.0.0"
+        - "NPM::which-module:2.0.1"
+        - "NPM::wrap-ansi:6.2.0"
+        - "NPM::y18n:4.0.3"
+        - "NPM::yargs-parser:18.1.3"
+        - "NPM::yargs:15.4.1"
+        scopes:
+          :copyleft_project:1.0.0:dependencies:
+          - root: 9
+          - root: 20
+        nodes:
+        - pkg: 14
+        - pkg: 16
+        - {}
+        - pkg: 31
+        - pkg: 29
+        - pkg: 33
+        - pkg: 11
+        - pkg: 17
+        - pkg: 1
+        - pkg: 32
+        - pkg: 30
+        - pkg: 8
+        - pkg: 7
+        - pkg: 2
+        - pkg: 35
+        - pkg: 6
+        - pkg: 10
+        - pkg: 23
+        - pkg: 21
+        - pkg: 22
+        - pkg: 18
+        - pkg: 24
+        - pkg: 12
+        - pkg: 13
+        - pkg: 25
+        - pkg: 26
+        - pkg: 28
+        - pkg: 34
+        - pkg: 36
+        - pkg: 5
+        - pkg: 37
+        - pkg: 38
+        - pkg: 9
+        - pkg: 4
+        - pkg: 15
+        - pkg: 19
+        - pkg: 27
+        - pkg: 3
+        - pkg: 20
+        edges:
+        - from: 3
+          to: 2
+        - from: 4
+          to: 1
+        - from: 4
+          to: 3
+        - from: 9
+          to: 8
+        - from: 10
+          to: 6
+        - from: 10
+          to: 7
+        - from: 10
+          to: 9
+        - from: 12
+          to: 11
+        - from: 13
+          to: 12
+        - from: 14
+          to: 9
+        - from: 14
+          to: 10
+        - from: 14
+          to: 13
+        - from: 15
+          to: 9
+        - from: 15
+          to: 10
+        - from: 15
+          to: 14
+        - from: 18
+          to: 17
+        - from: 19
+          to: 18
+        - from: 20
+          to: 19
+        - from: 22
+          to: 20
+        - from: 22
+          to: 21
+        - from: 30
+          to: 16
+        - from: 30
+          to: 29
+        - from: 31
+          to: 10
+        - from: 31
+          to: 15
+        - from: 31
+          to: 16
+        - from: 31
+          to: 22
+        - from: 31
+          to: 23
+        - from: 31
+          to: 24
+        - from: 31
+          to: 25
+        - from: 31
+          to: 26
+        - from: 31
+          to: 27
+        - from: 31
+          to: 28
+        - from: 31
+          to: 30
+        - from: 32
+          to: 0
+        - from: 32
+          to: 4
+        - from: 32
+          to: 5
+        - from: 32
+          to: 31
+        - from: 37
+          to: 33
+        - from: 37
+          to: 34
+        - from: 37
+          to: 35
+        - from: 37
+          to: 36
+        - from: 38
+          to: 37
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultFile"
+    curations: []
+  - provider:
+      id: "ClearlyDefined"
+    curations: []
